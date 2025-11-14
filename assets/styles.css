@@ -1,0 +1,170 @@
+
+    body {
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    }
+
+    .st-key-analyzebutton button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        animation: pulse 2s infinite;
+    }
+
+        .st-key-loadmodelbutton button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        animation: pulse 2s infinite;
+    }
+
+    .st-key-examplebutton1 button {
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    }
+
+    .st-key-examplebutton2 button {
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    }
+
+    .st-key-examplebutton3 button {
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    }
+
+    h1#cine-mate {
+        text-align: center;
+        background-image: linear-gradient(#3c83f6, #f97316);
+        color: transparent;
+        background-clip: text;
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    }
+
+    h3#your-movie-best-friend {
+        text-align: center;
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    }
+
+    /* .stMainBlockContainer {
+        background-color: rgba(255, 255, 255, 0.7);
+        margin: auto;
+        border-radius: 25px;
+        border-width: 1px;
+        border-color: #000000;
+        border-style: solid;
+        padding: 1rem 1rem 5rem;
+    } */
+
+    /* .stAppViewContainer {
+        display: -webkit-box;  
+        display: -ms-flexbox;  
+        display: -webkit-flex;
+        display: flex;        
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .st-key-querybox textarea {
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+        font-size: 16px;
+        padding: 10px 15px;
+        border: 0.5px solid #ccc;
+        border-radius: 6px;
+        outline: none;
+        width: 100%;
+        box-sizing: border-box;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .st-key-querybox textarea:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+        font-weight: 600;
+    }
+
+    [data-testid="stText"] {
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    [data-testid="stMarkdownContainer"] {
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+        font-weight: bold;
+    }
+
+    div[data-testid="stMarkdownContainer"] p{
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+        font-weight: 600;
+    }
+
+    [data-testid="stSelectbox"] {
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 20px auto;
+    }
+
+    .st-dz {
+        border-color: #94BBE9; 
+        border-width: 1px;
+        box-shadow: none;
+    }
+
+    .st-dz:focus {
+        border-color: #3c83f6; 
+        border-width: 1px;
+        box-shadow: none;
+    }
+
+    .st-key-querybox textarea:focus {
+        border-color: #3c83f6;
+        border-width: 1px;
+        box-shadow: none;
+    }
+
+    div {
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    }
+
+    [data-testid="stSidebar"] {
+        background-color: #1c83ff1a;
+    } 
+
+    [data-testid="stVerticalBlock"] {
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    }
+
+    h2#sentiment-prediction{
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    }
+
+    .st-d7 {
+        border-color: #3c83f6; 
+        border-width: 1px;
+        box-shadow: none;
+    }
+
+    .st-d7:focus {
+        border-color: #3c83f6; 
+        border-width: 1px;
+        box-shadow: none;
+    }
+
+    .st-emotion-cache-1fwbbrh h2{
+        font-family: Determination Mono,Determination Sans,monospace,ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+        font-weight: 700;
+    }

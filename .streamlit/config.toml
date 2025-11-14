@@ -1,0 +1,5 @@
+[server]
+enableStaticServing = true
+runOnSave = true
+maxMessageSize = 1000
+maxUploadSize = 1000
