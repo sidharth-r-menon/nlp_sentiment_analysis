@@ -146,13 +146,13 @@ streamlit run app/app.py
 - **Total**: 4,000,000 reviews
 - **Split**: 72% train (~2,880,000), 8% validation (~320,000), 20% test (~800,000)
 - **Classes**: Binary (positive/negative)
-- **Format**: FastText format (.ft.txt)
+- **Source**: [Kaggle - Amazon Reviews](https://www.kaggle.com/datasets/bittlingmayer/amazonreviews)
 
 ### IMDB Movie Reviews
 - **Total samples**: 50,000 reviews
 - **Split**: 72% train (~36,000), 8% validation (~4,000), 20% test (~10,000)
 - **Classes**: Binary (positive/negative)
-- **Format**: CSV
+- **Source**: [Kaggle - IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
 ### Yelp Business Reviews
 - **Training samples**: 560,000
@@ -160,6 +160,6 @@ streamlit run app/app.py
 - **Total**: 598,000 reviews
 - **Split**: 72% train (~430,560), 8% validation (~47,840), 20% test (38,000)
 - **Classes**: Binary (1-2 stars = negative, 3-4 stars = positive)
-- **Format**: CSV
+- **Source**: [Kaggle - Yelp Review Polarity](https://www.kaggle.com/datasets/irustandi/yelp-review-polarity)
 
 > **Data Splitting**: All datasets are split into train (72%), validation (8%), and test (20%) sets during preprocessing. The validation set is primarily used for training the ensemble meta-classifier.
