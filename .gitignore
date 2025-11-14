@@ -1,6 +1,8 @@
 .vscode
 models/checkpoints/*
+!models/checkpoints/.gitkeep
 models/saved_models/*
+!models/saved_models/.gitkeep
 src/__pycache__
 src/evaluation/__pycache__
 data/processed/preprocessed_data.pkl
