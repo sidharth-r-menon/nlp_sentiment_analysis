@@ -75,8 +75,7 @@ nlp_sentiment_analysis/
 > - `data/processed/` - Generated after running preprocessing
 > - `models/checkpoints/` - Training checkpoints (generated during training)
 > - `models/saved_models/` - Trained model files (generated after training)
-> - `metrics/` - Evaluation results (generated after evaluation)
-> 
+
 > The directory structure above shows how these folders will be organized once you run the training and evaluation scripts.
 
 ## Setup
@@ -139,8 +138,28 @@ streamlit run app/app.py
 - **Transformers**: BERT, RoBERTa, DistilBERT
 - **Ensemble**: Stacking ensemble with meta-classifier
 
-## Domains
+## Datasets
 
-- Amazon product reviews
-- IMDB movie reviews
-- Yelp business reviews
+### Amazon Product Reviews
+- **Training samples**: 3,600,000
+- **Test samples**: 400,000
+- **Total**: 4,000,000 reviews
+- **Split**: 72% train (~2,880,000), 8% validation (~320,000), 20% test (~800,000)
+- **Classes**: Binary (positive/negative)
+- **Format**: FastText format (.ft.txt)
+
+### IMDB Movie Reviews
+- **Total samples**: 50,000 reviews
+- **Split**: 72% train (~36,000), 8% validation (~4,000), 20% test (~10,000)
+- **Classes**: Binary (positive/negative)
+- **Format**: CSV
+
+### Yelp Business Reviews
+- **Training samples**: 560,000
+- **Test samples**: 38,000
+- **Total**: 598,000 reviews
+- **Split**: 72% train (~430,560), 8% validation (~47,840), 20% test (38,000)
+- **Classes**: Binary (1-2 stars = negative, 3-4 stars = positive)
+- **Format**: CSV
+
+> **Data Splitting**: All datasets are split into train (72%), validation (8%), and test (20%) sets during preprocessing. The validation set is primarily used for training the ensemble meta-classifier.
